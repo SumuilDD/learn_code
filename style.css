@@ -1,13 +1,46 @@
-.box {
-  width: 200px;
-  height: 100px;
-  background-color: lightblue;
-  text-align: center;
-  line-height: 100px;
-  font-size: 24px;
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center; /* Вирівнювання по центру */
+  margin: 50px;
+  background-color: #f4f4f4;
 }
 
-/* коли додається клас "active", змінюємо фон */
-.box.active {
-  background-color: orange;
+/* Заголовок */
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Кнопки */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer; /* Змінює курсор при наведенні */
+}
+
+/* Кольоровий блок */
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: lightblue; /* Початковий колір */
+  transition: background-color 0.3s;
+}
+
+/* Додатковий клас, який змінює фон */
+.active {
+  background-color: lightgreen;
+}
+
+/* Список */
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.list li {
+  padding: 5px 0;
 }
