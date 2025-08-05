@@ -1,0 +1,13 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100px;
+  font-size: 24px;
+}
+
+/* коли додається клас "active", змінюємо фон */
+.box.active {
+  background-color: orange;
+}
